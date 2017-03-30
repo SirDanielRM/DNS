@@ -59,7 +59,7 @@ Añadir a /etc/resolv.conf nuestro dns
 
 /etc/init.d/bind9 restart
 
-### RAID
+### FTP
 
 - En estos deberemos instalar el apache y el vsftpd:
 
@@ -83,7 +83,7 @@ En este sera el ultimo paso. Deberemos hacer unas pequeñas modificaciones:
 
 - Despues iremos al sysctl.config
 
-![Options](/Router/sysctl.config.png)
+![Options](/Router/sysctl.conf.png)
 
 - A continuacion crearemos un archivo.sh, nosotros lo llamaremos inicio.sh por ejemplo
 
