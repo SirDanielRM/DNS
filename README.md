@@ -6,7 +6,7 @@
 
 - Esta es la configuracion para un servidor de RAID 5
 
-![RAID5](/images/2017/03/UbuntuRAID5.png)
+![RAID5](/DNS/UbuntuRAID5.png)
 
 En ambos casos seran validos para un servidor DNS como el que vamos a configurar
 
@@ -25,10 +25,10 @@ Despues empezaremos a configurar por el
 
 /etc/bind/named.conf.local
 
-![named.conf.local](/images/2017/03/named.conf.local.png)
+![named.conf.local](/DNS/named.conf.local.png)
 
 Despues accederemos al
 
 /etc/bind/named.conf.options
 
-![Options](/images/2017/03/named.conf.options.png)
+![Options](/DNS/named.conf.options.png)
