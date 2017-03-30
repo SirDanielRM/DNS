@@ -32,3 +32,15 @@ Despues accederemos al
 /etc/bind/named.conf.options
 
 ![Options](/DNS/named.conf.options.png)
+
+/etc/bind/rd.sitioa.com
+
+/etc/bind/rd.sitioab.net
+
+/etc/bind/rd.sitioc.net
+
+![Options](/DNS/rd.sitioa.com.png)
+
+![Options](/DNS/rd.sitiob.net.png)
+
+![Options](/DNS/rd.sitioc.net.png)
