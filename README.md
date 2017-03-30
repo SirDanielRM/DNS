@@ -59,3 +59,16 @@ Añadir a /etc/resolv.conf nuestro dns
 
 /etc/init.d/bind9 restart
 
+### RAID
+
+- En estos deberemos instalar el apache y el vsftpd:
+
+![Options](/FTP1/apache.png)
+
+![Options](/FTP1/vsftpd.png)
+
+Despues de esto debemos modificar el archivo
+
+/etc/network/interfaces
+
+![Options](/FTP1/interfaces.png)
