@@ -72,3 +72,23 @@ Despues de esto debemos modificar el archivo
 /etc/network/interfaces
 
 ![Options](/FTP1/interfaces.png)
+
+### Router
+
+En este sera el ultimo paso. Deberemos hacer unas pequeñas modificaciones:
+
+- Empezaremos con /etc/network/interfaces
+
+![Options](/Router/interfaces.png)
+
+- Despues iremos al sysctl.config
+
+![Options](/Router/sysctl.config.png)
+
+- A continuacion crearemos un archivo.sh, nosotros lo llamaremos inicio.sh por ejemplo
+
+![Options](/Router/inicio.sh.png)
+
+- Y ahora lo registraremos en /etc/rc.local
+
+![Options](/Router/rc.local.png)
